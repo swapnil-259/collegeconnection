@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screenshot"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/screen"
+            tools:ignore="ContentDescription">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LET'S CONNECT"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:textSize="40sp"
+            tools:ignore="HardcodedText">
+
+
+
+        </TextView>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGN IN"
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="COLLEGE NAME"
+                android:textColor="@color/black"
+                tools:ignore="HardcodedText">
+
+            </TextView>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint=" enter your college name"
+                android:minHeight="48dp"
+                android:textColor="@color/black"
+                tools:ignore="Autofill,HardcodedText,TextFields">
+
+            </EditText>
+
+        </androidx.cardview.widget.CardView>
+
+      <androidx.cardview.widget.CardView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+          >
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="COLLEGE ID"
+              android:textColor="@color/black"
+              tools:ignore="HardcodedText,VisualLintOverlap">
+
+          </TextView>
+
+          <EditText
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:hint="enter your valid ID"
+              android:textColor="@color/black"
+              tools:ignore="Autofill,HardcodedText,TextFields,TouchTargetSizeCheck">
+
+          </EditText>
+
+
+      </androidx.cardview.widget.CardView>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ENTER"
+            android:textSize="20sp"
+            android:layout_marginTop="40dp"
+            tools:ignore="HardcodedText,VisualLintButtonSize">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEW HERE ? Register "
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        ></TextView>
+
+
+
+</LinearLayout>
